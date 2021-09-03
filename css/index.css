@@ -68,23 +68,12 @@ p {
     line-height: 1.4;
 }
 
-header{
-    margin-bottom: 1px;
-}
-
 header nav{
     width:1000px;
-    align-items: center;
     display: flex;
     justify-content: space-between;
+    align-items:flex-end;
     margin: 10% auto;
-}
-nav div{
-    
-}
-header links{
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .logo{
