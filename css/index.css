@@ -270,3 +270,33 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+.main-content{
+    width: 1000px;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content div{
+    width: 490px;
+    height:auto;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.main-content img{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.main-content a{
+    margin: 0;
+    border: 2px black solid;
+    padding:5px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
