@@ -46,7 +46,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-    Align-items:center works on the horiontal on the main-axis.
+    Align-items:center works on the horizontal on the main-axis.
 
 5. Explain why git is valuable to a team of developers.
 
