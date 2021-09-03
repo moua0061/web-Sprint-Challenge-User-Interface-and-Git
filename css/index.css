@@ -73,15 +73,24 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
-    margin: 10% auto;
+    margin: 1% auto;
 }
 
 .logo{
     width:20%;
 }
+
+section img{
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+    width:1000px;
+}
+
+
 .container {
     width: 1000px;
-    margin: 10% auto;
+    margin: 1% auto;
 }
 
 .top-content {
