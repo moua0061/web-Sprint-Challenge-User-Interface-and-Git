@@ -48,7 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px red solid;  */
+    border: 1px red solid; 
     /* comment out when completed */
 }
 
@@ -74,11 +74,14 @@ header nav{
     justify-content: space-between;
     align-items:flex-end;
     margin: 1% auto;
-    
 }
 
 .logo{
     width:20%;
+}
+
+a:link{
+    text-decoration: none;
 }
 
 section img{
@@ -256,4 +259,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about html */
+
+.about{
+    width: 1000px;
+    margin: 1% auto;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
