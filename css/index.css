@@ -46,6 +46,7 @@ table {
 	border-spacing: 0;
 }
 
+/* universal for everything inside the website */
 * {
     box-sizing: border-box;
     /* border: 1px red solid;  */
@@ -67,7 +68,10 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
- /* index html */
+
+
+
+ /* index */
 
 header nav{
     width:1000px;
@@ -91,7 +95,6 @@ section img{
     margin: 2% auto;
     width:1000px;
 }
-
 
 .container {
     width: 1000px;
@@ -262,7 +265,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* about html */
+/* about */
 
 .about{
     width:1000px;
