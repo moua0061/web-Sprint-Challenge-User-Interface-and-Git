@@ -48,7 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px red solid; 
+    /* border: 1px red solid;  */
     /* comment out when completed */
 }
 
@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+ /* index html */
 
 header nav{
     width:1000px;
@@ -264,9 +265,9 @@ footer nav a {
 /* about html */
 
 .about{
-    width: 1000px;
-    margin: 1% auto;
-    justify-content: space-evenly;
+    width:1000px;
+    margin:1% auto;
+    margin-top: 1px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -281,14 +282,29 @@ footer nav a {
 .main-content div{
     width: 490px;
     height:auto;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-top: 10px;
 }
 
 .main-content img{
     width: auto;
-    height: auto;
+    height: 30vh;
     margin: 0;
+}
+.main-content .strategy{
+    border-bottom: 1px dashed black;
+}
+.main-content .working{
+    border-bottom: 1px dashed black;
+    margin-left:18px;
+}
+
+.main-content .office{
+    border-bottom: 1px dashed black;
+}
+
+.main-content .meeting{
+    border-bottom: 1px dashed black;
+    margin-left:18px;
 }
 
 .main-content a{
@@ -298,5 +314,19 @@ footer nav a {
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
-    margin-bottom: 5px;
+}
+
+.button{
+    margin: 15px auto;
+}
+
+.main-content p, h2{
+    margin-top: 10px;
+}
+
+.lets{
+    width:1000px;
+    margin:1% auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
